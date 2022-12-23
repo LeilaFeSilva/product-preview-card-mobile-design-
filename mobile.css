@@ -1,0 +1,145 @@
+/* /* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: white;
+    width: 376px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+
+
+
+}
+
+.image {
+    width: 100%;
+
+}
+
+.image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.second-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.second-container div {
+    padding: 10px;
+}
+
+.title h1 {
+    font-size: 90%;
+    font-style: normal;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    filter: contrast(1%)
+}
+
+.name-of-perfume p {
+    font-size: 200%;
+    font-family: 'Fraunces', serif;
+}
+
+
+
+.description p {
+    font-size: 103%;
+    font-family: 'Montserrat', sans-serif;
+    filter: contrast(1%);
+
+}
+
+.price {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.price .new-price {
+    padding: 3px;
+    font-size: 200%;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.price .old-price {
+    font-size: 100%;
+    text-decoration-line: line-through;
+}
+
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 13px;
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+
+
+}
+
+button:active {
+    background-color: rgb(1, 65, 1);
+}
+
+
+
+button svg {
+
+    font-weight: bold;
+    width: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+
+}
+
+button .add-to-cart {
+    font-weight: bold;
+    font-size: 100%;
+}
